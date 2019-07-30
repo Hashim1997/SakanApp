@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cancel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="Profile name"/>
+
+    <!-- to preview the image of user profile -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3" />
+
+    <!-- this button allow the user to cancel the booking of home -->
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="50mm"
+        android:background="#831212"
+        android:textColor="#ffffff"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="145dp"
+        android:text="Cancel booking"
+        />
+
+
+</LinearLayout>

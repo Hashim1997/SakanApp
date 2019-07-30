@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redD"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Splash">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/skn" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:text="SAKANAT"
+
+        android:textSize="60px" />
+
+   <!-- <Space
+        android:layout_width="match_parent"
+        android:layout_height="88dp" />-->
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="n1_prompt">0</string>
+    <string-array name="n1">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>130</item>
+    </string-array>
+
+    <string name="n2_prompt">room</string>
+    <string-array name="n2">
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>130</item>
+        <item>150</item>
+    </string-array>
+
+    <string-array name="n3">
+        <item>1 room</item>
+        <item>2 room</item>
+        <item>3 rooms</item>
+        <item>4 rooms</item>
+    </string-array>
+
+    <string-array name="payment">
+        <item> credit card</item>
+        <item>Bank Deposit</item>
+        <item>Cash</item>
+    </string-array>
+    <string name="Country_prompt">Location</string>
+    <string-array name="Country_arrays">
+        <item>AMMAN</item>
+        <item>Maan</item>
+        <item>Al-Salt</item>
+        <item>Irbid</item>
+        <item>Al-Zarqa</item>
+        <item>Ajloun</item>
+        <item>Jarash</item>
+        <item>Al-Mafraq</item>
+        <item>Al-Karak</item>
+        <item>Al-Tafila</item>
+        <item>Al-Aqaba</item>
+        <item>Madaba</item>
+    </string-array>
+
+    <string name="Area_Prompt">Location</string>
+    <string-array name="Area">
+        <item>3*3</item>
+        <item>4*4</item>
+        <item>5*5</item>
+        <item>6*6</item>
+        <item>7*7</item>
+        <item>8*8</item>
+        <item>9*9</item>
+        <item>10*10</item>
+        <item>11*11</item>
+    </string-array>
+    <string name="Room_Prompt">Location</string>
+    <string-array name="Room_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>

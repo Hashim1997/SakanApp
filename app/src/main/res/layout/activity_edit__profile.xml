@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Edit_Profile">
+
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:text="Edit your information"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/house" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50pt"
+            android:layout_height="25dp"
+            android:text="Name"
+            android:textSize="19dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="90pt"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50pt"
+            android:layout_height="25dp"
+            android:text="Phone Nunber"
+            android:textSize="19dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_no"
+            android:layout_width="90pt"
+            android:layout_height="45dp"
+            android:inputType="phone"
+            android:layout_marginLeft="50dp"
+            tools:ignore="Deprecated" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50pt"
+            android:layout_height="25dp"
+            android:text="Email"
+            android:textSize="19dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="90pt"
+            android:layout_height="45dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50pt"
+            android:layout_height="25dp"
+            android:text="Password"
+            android:textSize="19dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/new_pass"
+            android:layout_width="90pt"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="50dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0"
+        android:background="#831212"
+        android:padding="12dp"
+        android:text="Edit Info"
+        android:textColor="#ffffff" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/dele"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0"
+        android:background="#831212"
+        android:padding="12dp"
+        android:text="Delete"
+        android:textColor="#ffffff" />
+</LinearLayout>
+</ScrollView>

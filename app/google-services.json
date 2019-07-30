@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "409290472162",
+    "firebase_url": "https://myapplication101-hanoon-ed0c1.firebaseio.com",
+    "project_id": "myapplication101-hanoon-ed0c1",
+    "storage_bucket": "myapplication101-hanoon-ed0c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409290472162:android:e81b66c13dd27cf8",
+        "android_client_info": {
+          "package_name": "com.example.nabatee.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409290472162-tv0ual40309oq8nl5c15hl4ruu03ndlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nabatee.myapplication",
+            "certificate_hash": "3b05c26fd1d9ea47c7745bdac01aa7d013f4fbbb"
+          }
+        },
+        {
+          "client_id": "409290472162-2iodna5qq8jiu83pannto1nm7ve7hnnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nabatee.myapplication",
+            "certificate_hash": "a90c41b1320733e78f4369369a902b849248677b"
+          }
+        },
+        {
+          "client_id": "409290472162-78b4885c0mrap4bjfchivnkpuamdbdcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaFNDzazbWVjd6Zv0qJfwFFApn7Ipf9m8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409290472162-78b4885c0mrap4bjfchivnkpuamdbdcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

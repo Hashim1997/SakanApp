@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:contexts=".MainActivity">
+
+    <!-- this code to create 3 dots menu contain
+    profiles that will take the user to it's profile
+    settings that will take to settings page to edit it
+    help to take the user to external link show how the system work with user guide
+    log out that log the user out from his account -->
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/profiles"
+            android:title="Profile"/>
+
+        <item android:id="@+id/settings"
+            android:title="Settings"/>
+
+        <item android:id="@+id/helps"
+            android:title="Help"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Log out" />
+    </group>
+
+</menu>
